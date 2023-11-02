@@ -204,6 +204,31 @@ body {
 
 /* Footer Css Ends*/
 
+.but ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.but ul li{
+    background-color: red;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin: 0px 10px;
+}
+
+.but ul li:hover{
+    background-color: #2cabe2;
+    color: black;
+}
+
+.hhhh{
+    display: none;
+}
+
 
 @media screen and (max-width:426px) {
     body {
